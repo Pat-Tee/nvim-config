@@ -35,21 +35,21 @@ return require('packer').startup(function(use)
 
   use ('chipsenkbeil/distant.nvim')
 
-  use ('sunjon/Shade.nvim')
-  
+--  use ('sunjon/Shade.nvim')
+
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v2.x',
 	  requires = {
 		  -- LSP Support
 		  {'neovim/nvim-lspconfig'},             -- Required
-		  {                                      -- Optional
-		  'williamboman/mason.nvim',
-		  run = function()
-			  pcall(vim.cmd, 'MasonUpdate')
-		  end,
-	  },
-	  {'williamboman/mason-lspconfig.nvim'}, -- Optional
+--		  {                                      -- Optional
+--		  'williamboman/mason.nvim',
+--		  run = function()
+--			  pcall(vim.cmd, 'MasonUpdate')
+--		  end,
+--	  },
+--	  {'williamboman/mason-lspconfig.nvim'}, -- Optional
 
 	  -- Autocompletion
 	  {'hrsh7th/nvim-cmp'},     -- Required

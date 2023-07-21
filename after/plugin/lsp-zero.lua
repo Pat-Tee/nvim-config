@@ -14,8 +14,7 @@ lsp.ensure_installed({
   'bash',
   'svelte-language-server',
   'html-lsp',
-  'css-lsp',
-  'vim'
+  'css-lsp'
 })
 
 -- Fix Undefined global 'vim'
