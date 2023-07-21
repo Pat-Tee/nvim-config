@@ -11,10 +11,11 @@ lsp.preset("recommended")
 lsp.ensure_installed({
   'tsserver',
   'lua_ls',
-  'bash',
-  'svelte-language-server',
-  'html-lsp',
-  'css-lsp'
+  'bashls',
+  'svelte',
+  'html',
+  'cssls',
+  'vimls'
 })
 
 -- Fix Undefined global 'vim'
