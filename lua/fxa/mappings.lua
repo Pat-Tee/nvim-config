@@ -6,7 +6,7 @@ vim.keymap.set('', 'l', 'k', { noremap = true })
 vim.keymap.set('', ';', 'l', { noremap = true })
 --vim.keymap.set('n', '<leader>pv', vim.cmd.Ex) -- netrw
 vim.keymap.set('n', '<leader>pv', ':NvimTreeOpen<CR>') -- Nvim-tree
-vim.keymap.set('i', 'ii', '<Esc>', {})        -- bind ii to Escape insert mode
+vim.keymap.set('i', 'kj', '<Esc>', {})        -- bind ii to Escape insert mode
 vim.keymap.set('', '<leader><Tab>', '<C-w>w', {}) -- cycle window focus
 vim.keymap.set('n', 'o', 'o<Esc>0_D') --Insert,(move cursor to) new line below
 vim.keymap.set('n', 'O', 'O<Esc>0_D') --Insert,(move cursor to) new line above

@@ -60,7 +60,6 @@ return require('packer').startup(function(use)
     use('folke/which-key.nvim')
     use('vim-airline/vim-airline')
     use('voldikss/vim-floaterm')
-    use ('windwp/nvim-autopairs')
     use('TaDaa/vimade')
     if packer_bootstrap then
         require('packer').sync()

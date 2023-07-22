@@ -1,1 +1,1 @@
-NeoVim configuration
+Neovim configuration
