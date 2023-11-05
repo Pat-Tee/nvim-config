@@ -74,10 +74,25 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  dracula = {
+  LuaSnip = {
     loaded = true,
-    path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/dracula",
-    url = "https://github.com/dracula/vim"
+    path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    url = "https://github.com/L3MON4D3/LuaSnip"
+  },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
+  colorizer = {
+    loaded = true,
+    path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/colorizer",
+    url = "https://github.com/NvChad/nvim-colorizer.lua"
+  },
+  ["distant.nvim"] = {
+    loaded = true,
+    path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/distant.nvim",
+    url = "https://github.com/chipsenkbeil/distant.nvim"
   },
   fluoromachine = {
     loaded = true,
@@ -89,10 +104,45 @@ _G.packer_plugins = {
     path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
+  ["lsp-zero.nvim"] = {
+    loaded = true,
+    path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
+    url = "https://github.com/VonHeikemen/lsp-zero.nvim"
+  },
+  ["mason-lspconfig.nvim"] = {
+    loaded = true,
+    path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+  },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/nvim-tree/nvim-tree.lua"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -104,11 +154,6 @@ _G.packer_plugins = {
     path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  synthwave = {
-    loaded = true,
-    path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/synthwave",
-    url = "https://github.com/lunarvim/synthwave84.nvim"
-  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -119,10 +164,40 @@ _G.packer_plugins = {
     path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  ["vim-airline"] = {
+    loaded = true,
+    path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/vim-airline",
+    url = "https://github.com/vim-airline/vim-airline"
+  },
+  ["vim-be-good"] = {
+    loaded = true,
+    path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/vim-be-good",
+    url = "https://github.com/ThePrimeagen/vim-be-good"
+  },
+  ["vim-devicons"] = {
+    loaded = true,
+    path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/vim-devicons",
+    url = "https://github.com/ryanoasis/vim-devicons"
+  },
+  ["vim-floaterm"] = {
+    loaded = true,
+    path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/vim-floaterm",
+    url = "https://github.com/voldikss/vim-floaterm"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  vimade = {
+    loaded = true,
+    path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/vimade",
+    url = "https://github.com/TaDaa/vimade"
+  },
+  ["which-key.nvim"] = {
+    loaded = true,
+    path = "/home/Rex7Goliath/.local/share/nvim/site/pack/packer/start/which-key.nvim",
+    url = "https://github.com/folke/which-key.nvim"
   }
 }
 

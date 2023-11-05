@@ -1,5 +1,5 @@
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
+vim.opt.tabstop = 2
+vim.opt.softtabstop = 2
 vim.opt.expandtab = true
 vim.opt.smarttab = true
 vim.opt.wrap = false
@@ -8,10 +8,13 @@ vim.opt.relativenumber = true
 vim.opt.number = true
 vim.opt.numberwidth = 4
 vim.opt.autoindent = true
-vim.opt.shiftwidth = 4
+vim.opt.shiftwidth = 2
 vim.opt.encoding = "utf-8"
 vim.opt.scrolloff = 8
 vim.opt.title = true
 vim.opt.incsearch = true
 vim.opt.termguicolors = true
---vim.g.vimade_py_cmd = "python"
+vim.cmd('set guicursor+=n-v-c-i:blinkon1')
+vim.cmd('set guicursor+=i:blinkwait100,i:blinkon250,i:blinkoff500')
+vim.cmd('set guicursor+=i:ver50-iCursor')
+vim.cmd('highlight Cursor guifg=orange guibg=black')
